@@ -1,0 +1,17 @@
+{
+  "name": "nodered-messenger-bot",
+  "version": "1.0.0",
+  "description": "Node-RED bot for Facebook Messenger",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "node-red": "^3.1.0",
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
