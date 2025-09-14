@@ -24,7 +24,7 @@ console.log(`Node-RED running at http://localhost:${settings.port}/red`);
 
 // Example route for Messenger Webhook
 app.get('/webhook', (req, res) => {
-    const VERIFY_TOKEN = 'YOUR_VERIFY_TOKEN';
+    const VERIFY_TOKEN = 'EAAKwGlnl4PUBPYRhPGZBzXZA97RZBnmAOPAzqo0woPgAZBCn7ha9ohTtyQxZAHDWXffqTeYfyLOIdPZAsStRVqlk0UFevkYic5CrWzvIEVLTZAf3zErSZCmZCJyH9IjWnqSJdDeJGQZAruyBINMx89SnbtiuDkw5XfZBSnYpfvC8ZBT656QqJxIjJP0IjJWHRZAZA7tAVZCvJl56wZDZD';
     const mode = req.query['hub.mode'];
     const token = req.query['hub.verify_token'];
     const challenge = req.query['hub.challenge'];
